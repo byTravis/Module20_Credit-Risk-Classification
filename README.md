@@ -18,7 +18,7 @@ In this section, describe the analysis you completed for the machine learning mo
 
 ## Results
 **Classification Report:**
-
+-
 ![Classification Report](images/classification_report.JPG)
 
 
@@ -35,7 +35,7 @@ In this section, describe the analysis you completed for the machine learning mo
     - Among all the actual high-risk loans, 89% are correctly predicted as high risk.
 
 **Confusion Matrix**
-
+-
 ![Confusion Matrix](images/confusion_matrix.png)
 
 
