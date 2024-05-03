@@ -34,8 +34,7 @@ In this section, describe the analysis you completed for the machine learning mo
 - Recall: 0.89
     - Among all the actual high-risk loans, 89% are correctly predicted as high risk.
 
-**Confusion Matrix**
-ttt
+### Confusion Matrix
 ![Confusion Matrix](images/confusion_matrix.png)
 
 
