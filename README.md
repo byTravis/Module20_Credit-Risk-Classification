@@ -1,10 +1,14 @@
-# Module20_Credit-Risk-Classification
-Credit Risk Classification - Supervised Machine Learning Challenge - Week 19 - Data Analytics Boot Camp - University of Oregon
+# Module 20 - Credit Risk Classification
+Credit Risk Classification - Supervised Machine Learning Challenge - Week 20 - Data Analytics Boot Camp - University of Oregon
+
+
+## Background
+In this Challenge, I'm using a Logistic Regression Model to train and evaluate a model based on loan risk. I used a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+In this section, describe the analysis you completed for the machine learning models used in this challenge. This might include:
 
 * Explain the purpose of the analysis.
 * Explain what financial information the data was on, and what you needed to predict.
@@ -13,17 +17,24 @@ In this section, describe the analysis you completed for the machine learning mo
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
 
 ## Results
+![Classification Report]("images/classification_report.JPG)
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
+![Confusion Matrix]("images/confusion_matrix.png")
 
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+- Healthy Loan (0):
+    - Precision: 1.00 
+        - Among all the loans predicted as healthy, 100% are actually healthy.
+    - Recall: 1.00 
+        - Among all the actual healthy loans, 100% are correctly predicted as healthy.
+
+    - High Risk Loan (1):
+        - Precision: 0.87
+            - Among all the loans predicted as high risk, 87% are actually high risk.
+        - Recall: 0.89
+            - Among all the actual high-risk loans, 89% are correctly predicted as high risk.
+
+
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+This model works very well in predicting healthy loans with perfect precision and recall of 1.  High risk loans also seem to perform well with .87 precision and .89 recall.  Overall, the model achieves a high accuracy of 99%, which suggests it does exceptionally well in distinguishing between healthy and high-risk loans.
