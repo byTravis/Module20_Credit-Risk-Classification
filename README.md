@@ -20,17 +20,17 @@ In this section, describe the analysis you completed for the machine learning mo
 ![Classification Report](images/classification_report.JPG)
 
 
-- Healthy Loan (0):
-    - Precision: 1.00 
-        - Among all the loans predicted as healthy, 100% are actually healthy.
-    - Recall: 1.00 
-        - Among all the actual healthy loans, 100% are correctly predicted as healthy.
+**Healthy Loan (0):**
+- Precision: 1.00 
+    - Among all the loans predicted as healthy, 100% are actually healthy.
+- Recall: 1.00 
+    - Among all the actual healthy loans, 100% are correctly predicted as healthy.
 
-    - High Risk Loan (1):
-        - Precision: 0.87
-            - Among all the loans predicted as high risk, 87% are actually high risk.
-        - Recall: 0.89
-            - Among all the actual high-risk loans, 89% are correctly predicted as high risk.
+**High Risk Loan (1):**
+- Precision: 0.87
+    - Among all the loans predicted as high risk, 87% are actually high risk.
+- Recall: 0.89
+    - Among all the actual high-risk loans, 89% are correctly predicted as high risk.
 
 ![Confusion Matrix](images/confusion_matrix.png)
 
