@@ -1,9 +1,9 @@
 # Module 20 - Credit Risk Classification
-Credit Risk Classification - Supervised Machine Learning Challenge - Week 20 - Data Analytics Boot Camp - University of Oregon
+*Credit Risk Classification - Supervised Machine Learning Challenge - Week 20 - Data Analytics Boot Camp - University of Oregon*
 
 
 ## Background
-In this Challenge, I'm using a Logistic Regression Model to train and evaluate a model based on loan risk. I used a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+I'm using a Logistic Regression Model to train and evaluate a model based on loan risk. I used a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
 
 ## Overview of the Analysis
@@ -17,9 +17,9 @@ In this section, describe the analysis you completed for the machine learning mo
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
 
 ## Results
-![Classification Report]("images/classification_report.JPG)
+![Classification Report]("images\classification_report.JPG")
 
-![Confusion Matrix]("images/confusion_matrix.png")
+![Confusion Matrix]("images\confusion_matrix.png")
 
 - Healthy Loan (0):
     - Precision: 1.00 
