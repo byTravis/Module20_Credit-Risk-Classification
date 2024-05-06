@@ -4,18 +4,8 @@
 ![Credit Risk Classification](images/project_banner.jpg)
 
 ## Background
-I'm using a Logistic Regression Model to train and evaluate a model based on loan risk. I used a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+I'm using a Logistic Regression Model to train and evaluate a model based on loan risk. I used a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of new borrowers.  The training data includes loan size, interest rate, borrower income, debt to income, number of accounts, number of derogatory marks, and total debt.  These are compared to the loan status of fulfilled loans or defaulted loans.  I split the data into training and testing sets to create the model.  The result is a model that will help us predict whether a new loan is likely to be healthy or high risk.
 
-
-## Overview of the Analysis
-
-In this section, describe the analysis you completed for the machine learning models used in this challenge. This might include:
-
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
 
 ## Results
 ### Classification Report:
